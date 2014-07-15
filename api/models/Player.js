@@ -20,9 +20,7 @@ module.exports = {
         },
         chips: 100 // 50 x 2 (big blind)
     },
-    protectedAttributes: function () {
-        return [ "email" ];
-    },
+    protectedAttributes: ["email"],
     // toJSON: function() {
     //     var object = this.toObject();
     //     delete object.email;
