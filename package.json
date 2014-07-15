@@ -1,0 +1,22 @@
+{
+    "name": "uber-holdem",
+    "private": true,
+    "version": "0.0.0",
+    "description": "A Node-Powered Multiplayer Texas Hold'em Web Application.",
+    "dependencies": {
+        "sails": "0.9.16",
+        "grunt": "0.4.1",
+        "sails-disk": "~0.9.0",
+        "ejs": "0.8.4",
+        "optimist": "0.3.4",
+        "texas": "0.2.1"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node debug app.js"
+    },
+    "main": "app.js",
+    "repository": "https://github.com/SuperGeekJake/node-holdem",
+    "author": "Jacob Williams",
+    "license": "MIT License"
+}
